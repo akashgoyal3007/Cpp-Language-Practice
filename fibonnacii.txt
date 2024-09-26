@@ -1,0 +1,19 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int n1=0,n2=1,n=5,result,i;
+    
+        for(i=0;i<n;i++)
+        {
+            result=n1+n2;
+            cout<<result;
+            n1=n2;
+            n2=result;
+        }
+    
+
+    return 0;
+}

@@ -1,0 +1,25 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+    int a=1,i,num;
+    cout<< "enter num";
+    cin>>num;
+    for(i=2;i<num;i++)
+    {
+        if(num%i==0)
+        {
+            a=0;
+            break;
+        }
+    }
+      if (a==1)
+      {
+          cout<<"Prime no";
+      }
+      else
+      {
+          cout<<"Not a prime no";
+      }
+  return 0;
+}
